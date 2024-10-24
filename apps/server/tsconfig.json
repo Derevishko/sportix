@@ -3,14 +3,16 @@
   "files": [],
   "include": [],
   "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.spec.json" },
+    { "path": "../../libs/config" }
   ],
   "compilerOptions": {
-    "esModuleInterop": true
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@sportix/config": ["../../libs/config/src/index.ts"]
+    }
   }
 }
