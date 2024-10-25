@@ -17,6 +17,7 @@
     "esModuleInterop": true,
     "paths": {
       "@sportix/config": ["libs/config/src/index.ts"],
+      "@sportix/models": ["libs/models/src/index.ts"],
       "@sportix/mongo": ["libs/mongo/src/index.ts"]
     }
   },
