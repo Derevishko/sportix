@@ -13,6 +13,9 @@
     "resolveJsonModule": true,
     "paths": {
       "@sportix/config": ["../../libs/config/src/index.ts"],
+      "@sportix/dtos": ["../../libs/dtos/src/index.ts"],
+      "@sportix/jwt": ["../../libs/jwt/src/index.ts"],
+      "@sportix/enum": ["../../libs/enum/src/index.ts"],
       "@sportix/models": ["../../libs/models/src/index.ts"],
       "@sportix/mongo": ["../../libs/mongo/src/index.ts"],
       "@modules/*": ["./src/modules/*"]

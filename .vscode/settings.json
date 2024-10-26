@@ -1,0 +1,18 @@
+{
+  "rest-client.environmentVariables": {
+    "local": {
+      "baseUri": "http://localhost:3000/api",
+      "accessTokenCustomer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQ3VzdG9tZXIiLCJ1c2VySWQiOiI2NWUxZGQ5N2I4Y2JiOTVkMmU1NmExYTMiLCJqdGkiOiI3MGIyYjFiZS1mM2I2LTRkMWYtYWRlNS1kZmZlZThjMGVkZTAiLCJzdWIiOiI2NWUxZGQ5N2I4Y2JiOTVkMmU1NmExYTMiLCJ0eXAiOiJCZWFyZXIiLCJpYXQiOjE3MDkzODkxNDh9.Pe2N0AeJFmwJoYFQ9Kyawif_6A79jqw3hzS7Qrsx6Mw",
+      "adminEmail": "admin@sportix.com",
+      "adminPassword": "password",
+      "customerEmail": "customer@sportix.com",
+      "customerPassword": "password"
+    }
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.run": "onSave",
+  "files.eol": "\n"
+}

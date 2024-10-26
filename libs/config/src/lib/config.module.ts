@@ -6,6 +6,11 @@ import {
 
 @Module({})
 export class ConfigModule {
+  static forFeature(config: ConfigFactory) {
+    console.log(config);
+    return NestConfigModule.forFeature(config);
+  }
+
   static forRoot(...configs: ConfigFactory[]) {
     return {
       module: ConfigModule,

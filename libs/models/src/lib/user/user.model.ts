@@ -2,7 +2,7 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 import { v4 as uuidv4 } from 'uuid';
 import * as bcrypt from 'bcrypt';
-import { UserRole } from './user.enum';
+import { UserRole } from '@sportix/enum';
 
 export type UserDocument = User & Document;
 

@@ -1,0 +1,19 @@
+### Signup
+POST {{baseUri}}/auth/signup
+Content-Type: application/json
+
+{
+  "email": "{{customerEmail}}",
+  "password": "{{customerPassword}}",
+  "tagName": "tag"
+}
+
+### Signin
+# @name sigin
+POST {{baseUri}}/auth/signin
+Content-Type: application/json
+
+{
+  "emailOrTagName": "{{customerEmail}}",
+  "password": "{{customerPassword}}"
+}
