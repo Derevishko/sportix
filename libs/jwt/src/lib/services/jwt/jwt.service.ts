@@ -29,8 +29,6 @@ export class JwtService {
       expiresIn: this.accessExpiresIn,
     });
 
-    console.log(this.accessSecret, payload);
-
     try {
       return await sign({ ...payload, iat: Date.now() });
     } catch {
